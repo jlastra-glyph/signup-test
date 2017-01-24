@@ -9,8 +9,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <meta charset="utf-8">
   <title>Register</title>
 
- 
-<script type="text/javascript">google.load("jquery", "1.3.2");</script>
   <style type="text/css">
 
   html {
@@ -87,7 +85,6 @@ hr {
   height:30px;
   font-family: 'Ubuntu', sans-serif;
   margin:10px 0;
-  border-radius:5px;
   border:2px solid #f2f2f2;
   outline:none;
   padding-left:10px;
@@ -96,13 +93,13 @@ hr {
   height:30px;
   width:200px;
   /*background:#fff;*/
-  /*border:1px solid #f2f2f2;*/
+  border:1px solid #f2f2f2;
+  border-radius:12px;
   background: #a6c9ea;
     background: -webkit-linear-gradient(#37383a,#000000);
     background: -o-linear-gradient(#37383a,#000000);
     background: -moz-linear-gradient(#37383a,#000000);
     background: linear-gradient(#37383a,#000000)
-  border-radius:10px;
   text-transform:uppercase;
   font-family: 'Ubuntu', sans-serif;
   color: white;
@@ -149,11 +146,11 @@ hr {
     </div>
     
      <div class="clearfix"></div>
-      <input type="submit" name="submit" value="Submit" class="register-button"/>
+      <input type="submit" name="submit" value="Submit" />
       <div class="clearfix"></div>
       <?php echo form_close(); ?>
       <?php echo form_open('register/getXML'); ?>
-      <input type="submit" name="export" value="Export to XML" class="register-button"/>
+      <input type="submit" name="export" value="Export to XML" />
       <?php echo form_close(); ?>
     </div>
 
