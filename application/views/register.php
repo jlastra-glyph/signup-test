@@ -128,7 +128,7 @@ hr {
       }?>
     </div>
     <?php echo validation_errors(); ?>
-    <?php echo form_open('register'); ?>
+    <?php echo form_open('Register'); ?>
     <div class="register-label">
         <p><b>Name:</b></p>
         <p>First Name Only</p>
@@ -149,7 +149,7 @@ hr {
       <input type="submit" name="submit" value="Submit" />
       <div class="clearfix"></div>
       <?php echo form_close(); ?>
-      <?php echo form_open('register/getXML'); ?>
+      <?php echo form_open('Register/getXML'); ?>
       <input type="submit" name="export" value="Export to XML" />
       <?php echo form_close(); ?>
     </div>
